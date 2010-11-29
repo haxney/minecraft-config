@@ -1,0 +1,14 @@
+# stats/haxney.txt
+blockdestroy:obsidian:1
+blockdestroy:stoneplate:1
+blockdestroy:stone:1
+blockcreate:obsidian:1
+blockcreate:diamondpickaxe:14
+stats:armswing:81
+stats:command:5
+stats:lastlogin:1291024016
+stats:playedfor:27
+stats:login:2
+stats:teleport:7
+stats:lastlogout:1291023777
+stats:move:318
