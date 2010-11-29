@@ -1,0 +1,9 @@
+server.log*
+*.bat
+logs/
+Minecraft_Mod.jar
+minecraft_server.jar
+mysql-connector-java-bin.jar
+old/
+world/
+world-backups/
