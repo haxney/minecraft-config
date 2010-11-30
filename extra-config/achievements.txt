@@ -1,0 +1,4 @@
+# Achievements
+# Format is: enabled:name:maxawards:category:key:value:description[:commands[:conditions]]
+# commands are optional, separated by semicolons (;), available commands: item group
+# Example: 1:ClownPuncher:1:stats:armswing:1000:Awarded for punching the air 1000 times.[:item goldblock 1]
