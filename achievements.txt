@@ -7,7 +7,7 @@
 
 1:Cloud Puncher:1:stats:armswing:1000:Awarded for punching the air 1000 times.:item goldblock 1
 
-1:Obsidian Sculptor:1:stats:blockcreate:obsidian:50:Awarded for placing 50 obsidian blocks.:item diamondpickaxe 3
+1:Obsidian Sculptor:1:blockcreate:obsidian:50:Awarded for placing 50 obsidian blocks.:item diamondpickaxe 3
 
 #Creation Achievements
 1:The Stair Master:1:blockcreate:cobblestonestairs:50:Placed 50 Cobblestone Stairs
@@ -44,7 +44,7 @@
 1:I'm a miner!:1:blockdestroy:rock:100:Mined 100 Smooth Stone.
 1:Rock hard...pick...:1:blockdestroy:rock:500:Mined 500 Smooth Stone.
 1:Need...more....stone!:1:blockdestroy:rock:1000:Mined 1,000 Smooth Stone.
-1:IT'S OVER 9,000!(Smooth Stone):blockdestroy:rock:9001:Mined over 9,000 Smooth Stone.
+1:IT'S OVER 9,000!(Smooth Stone):1:blockdestroy:rock:9001:Mined over 9,000 Smooth Stone.
 1:Building the Chunnel!:1:blockdestroy:rock:15000:Mined 15,000 Smooth Stone.
 1:The Tree Killer:1:blockdestroy:tree:100:Chopped 100 wood.
 1:Smokey hates you!:1:blockdestroy:tree:500:Chopped 500 wood.
