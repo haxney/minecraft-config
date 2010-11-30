@@ -1,0 +1,10 @@
+* Minecraft server config
+
+  This is the configuration for a private server I play with a few friends. I
+  like backups and Git, and this might be useful to some people.
+* What it's running
+  I'm using hMod build 128 (for now), a couple plugins, and the excellent
+  =daemonize.php= script for restarting the server when it dies (which happens a
+  lot, since I'm on a server with "only" 700MB of RAM).
+
+  Feel free to grab code, settings, or inspiration from this config, or not ;).
