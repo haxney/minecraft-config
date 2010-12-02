@@ -39,11 +39,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		// The command to run, should be the full path to the server_nogui.sh script.
 		'Command'=>'/home/dhackney/mine/server_nogui.sh',
 		// Pidfile for this script. Null to not output one.
-		'Monitor_Pidfile'=>'/home/dhackney/mine/daemon.pid',
+		'Monitor_Pidfile'=>null,
 		// Pidfile for our launched command. Null to not output one.
 		'Command_Pidfile'=>'/home/dhackney/mine/minecraft.pid',
 		// Logfile for this script, null to not log.
-		'Logfile'=>'/home/dhackney/mine/daemon.log',
+		'Logfile'=>'/home/dhackney/mine/logs/daemon.log',
 		// GID to run the command as. Must be a numeric id, not a name.
 		'GID'=>32009,
 		// UID to run the command as. Must be a numeric id, not a name.
