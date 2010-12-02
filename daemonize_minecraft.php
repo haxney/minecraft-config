@@ -69,12 +69,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 	function minecraft_sigterm($signal)
 	{
-
+          echo "terming\n";
 		global $_STATE;
 		logmsg("SIGTERM - stop");
 		$_STATE['Running'] = false;
 		fwrite($_STATE['Descriptors'][0], 'stop'.PHP_EOL);
 		fflush($_STATE['Descriptors'][0]);
+		if (isset($_CONFIG['Command_Pidfile']) && file_exists($_CONFIG['Command_Pidfile']))
+			unlink($_CONFIG['Command_Pidfile']);
 	}
 
 	pcntl_signal(SIGHUP, 'minecraft_command');
