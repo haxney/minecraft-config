@@ -9,3 +9,5 @@
 #Adminfoo:admins
 #Moderator39:mods:1:0:/unban
 #BobTheBuilder:vip:0:d
+haxney:default:0::
+Serrar:default:0
