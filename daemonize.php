@@ -65,7 +65,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		// command.
 		'MonitorInterval'=>5,
 		// Prints log messages to stdout
-		'Interactive'=>false
+		'Interactive'=>true
 		);
 
 	/* Holds the current state of the program. */
@@ -100,6 +100,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 		$_CONFIG[$key] = $value;
 	}
+if (file_exists($_CONFIG['Command_Pidfile']))
+  unlink($_CONFIG['Command_Pidfile']);
+
+if (file_exists($_CONFIG['Monitor_Pidfile']))
+  unlink($_CONFIG['Monitor_Pidfile']);
+
+
 
 	/* Attempt to validate configured values */
 
